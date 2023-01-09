@@ -53,3 +53,18 @@
         padding-top: 40px;
     } 
 }   
+
+@media screen and (max-width: 330px) {
+
+    .text-center {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+}
