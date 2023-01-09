@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px ) {
+
+    .container{
+       max-width: 600px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px ) {
+
+    .container{
+       max-width: 400px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .steps .col, 
+    .why-us .col-left,
+    .why-us .col-right,
+    .lessons .col
+     {
+        width: 100%;
+    }
+
+    .col-left {
+        padding-bottom: 50px;
+    }
+
+    .why-us {
+        background-color: rgb(44, 43, 43);
+    }
+
+    .steps,
+    .why-us {
+        margin: 0;
+    }
+
+    .lessons {
+        padding-bottom: 50px;
+    }
+
+    .why-us {
+        padding-top: 40px;
+    } 
+}   
